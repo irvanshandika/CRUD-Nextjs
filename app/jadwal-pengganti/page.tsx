@@ -41,7 +41,7 @@ export default async function JadwalData() {
               <td>{jadwal.mataKuliah}</td>
               <td>{jadwal.ruangan}</td>
               <td>
-                <UpdateJadwal {...jadwal} /> | 
+                <UpdateJadwal {...jadwal} /> |
                 <DeleteJadwal {...jadwal} />
               </td>
             </tr>
